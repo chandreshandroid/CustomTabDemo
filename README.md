@@ -1,5 +1,5 @@
 # CustomTabDemo Demo
-#Implementation guide
+<b>Implementation guide</b>
 
 First thing to do, is to add the chrome custom tabs dependency to the dependencies section of your app-level build.gradle file. The section should look like this
 
@@ -11,7 +11,7 @@ dependencies
        <br/>
 }
 
-now setup # CustomTabsIntent builder for open web url in custom tab.
+now setup <b>CustomTabsIntent builder</b> for open web url in custom tab.
 
        String url = "http://www.enggroom.com";
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
