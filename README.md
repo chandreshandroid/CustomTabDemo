@@ -8,6 +8,7 @@ dependencies
     ...
     <br/>
        compile 'com.android.support:customtabs:25.2.0'
+       <br/>
 }
 
 now setup # CustomTabsIntent builder for open web url in custom tab.
@@ -31,4 +32,6 @@ now setup # CustomTabsIntent builder for open web url in custom tab.
         
        // and launch the desired Url with CustomTabsIntent.launchUrl()
          customTabsIntent.launchUrl(this, Uri.parse(url));
+         
+ 
  
