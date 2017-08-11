@@ -20,20 +20,18 @@ public class MainActivity extends AppCompatActivity {
 
         String url = "http://www.enggroom.com";
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-// set toolbar color and/or setting custom actions before invoking build()
-// Once ready, call CustomTabsIntent.Builder.build() to create a CustomTabsIntent
-
+      // set toolbar color and/or setting custom actions before invoking build()
 
         builder.setToolbarColor(ContextCompat.getColor(this, R.color.colorPrimary));
         builder.setSecondaryToolbarColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
 
         builder.setShowTitle(true);
-// Application exit animation, Chrome enter animation.
+         // Application exit animation, Chrome enter animation.
         builder.setStartAnimations(this, R.anim.slide_in_right, R.anim.slide_out_left);
-// vice versa
+      // vice versa
         builder.setExitAnimations(this, R.anim.slide_in_left, R.anim.slide_out_right);
         CustomTabsIntent customTabsIntent = builder.build();
-// and launch the desired Url with CustomTabsIntent.launchUrl()
+       // and launch the desired Url with CustomTabsIntent.launchUrl()
         customTabsIntent.launchUrl(this, Uri.parse(url));
     }
 }
