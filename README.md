@@ -33,5 +33,13 @@ now setup # CustomTabsIntent builder for open web url in custom tab.
        // and launch the desired Url with CustomTabsIntent.launchUrl()
          customTabsIntent.launchUrl(this, Uri.parse(url));
          
+
+ <p align="center">
+  <img src="../master/image/1.png" width="350"/>
+  <img src="../master/image/2.png" width="350"/>
+</p>
+
+<a href="https://developer.chrome.com/multidevice/android/customtabs>for more deatils of Custom TAB</a> 
+
  
  
