@@ -39,7 +39,7 @@ now setup <b>CustomTabsIntent builder</b> for open web url in custom tab.
   <img src="../master/image/2.png" width="350"/>
 </p>
 
-<a href="https://developer.chrome.com/multidevice/android/customtabs>for more deatils of Custom TAB</a> 
+<a href="https://developer.chrome.com/multidevice/android/customtabs">for more deatils of Custom TAB</a> 
 
  
  
